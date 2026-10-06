@@ -46,7 +46,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import ServicioCard from '../components/ServicioCard.vue'
+import ServicioCard from './ServicioCard.vue'
 
 const busqueda = ref('')
 const categoriaFiltro = ref('')
